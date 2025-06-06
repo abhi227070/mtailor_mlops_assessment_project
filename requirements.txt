@@ -1,7 +1,4 @@
-onnxruntime
 numpy
-Pillow
+onnxruntime
+pillow
 onnx
-fastapi
-uvicorn
-requests

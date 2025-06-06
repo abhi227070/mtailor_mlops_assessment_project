@@ -1,0 +1,5 @@
+╭────────────────────────────────────────────────────  mtailer-project is now live!   ─────────────────────────────────────────────────────╮
+│ App Dashboard: https://dashboard.cerebrium.ai/projects/p-fb887699/apps/p-fb887699-mtailer-project                                        │
+│                                                                                                                                          │
+│ Endpoints:                                                                                                                               │
+│ POST https://api.cortex.cerebrium.ai/v4/p-fb887699/mtailer-project/run    

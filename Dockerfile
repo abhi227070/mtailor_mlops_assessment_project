@@ -1,17 +1,18 @@
+# Use official Python image
 FROM python:3.9-slim
 
-# Set working directory
+# Set work directory
 WORKDIR /app
 
 # Copy requirements and install dependencies
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy rest of the app
+# Copy all files
 COPY . .
 
-# Expose port
-EXPOSE 8000
+# Expose port (only for local testing if needed)
+EXPOSE 8080
 
-# Run FastAPI app
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
+# Define entry point (must be `run` function in Cerebrium)
+CMD ["python", "app.py"]
