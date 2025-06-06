@@ -1,0 +1,7 @@
+onnxruntime
+numpy
+Pillow
+onnx
+fastapi
+uvicorn
+requests
